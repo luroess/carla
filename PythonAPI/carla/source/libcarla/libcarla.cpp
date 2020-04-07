@@ -205,21 +205,21 @@ BOOST_PYTHON_MODULE(libcarla) {
   using namespace boost::python;
   PyEval_InitThreads();
   scope().attr("__path__") = "libcarla";
-  export_geom();
-  export_control();
-  export_blueprint();
-  export_actor();
-  export_sensor();
-  export_sensor_data();
-  export_snapshot();
-  export_weather();
-  export_world();
-  export_map();
-  export_client();
-  export_exception();
-  export_commands();
-  export_trafficmanager();
-  #ifdef LIBCARLA_RSS_ENABLED
-  export_ad_rss();
-  #endif
+  // export_geom();
+  // export_control();
+  // export_blueprint();
+  // export_actor();
+  // export_sensor();
+  // export_sensor_data();
+  // export_snapshot();
+  // export_weather();
+  // export_world();
+  // export_map();
+  // export_client();
+  // export_exception();
+  // export_commands();
+  // export_trafficmanager();
+  // #ifdef LIBCARLA_RSS_ENABLED
+  // export_ad_rss();
+  // #endif
 }
