@@ -27,7 +27,7 @@ namespace client {
   }
 
   std::ostream &operator<<(std::ostream &out, const World &world) {
-    out << "World(id=" << world.GetId() << ')';
+    out << "World(id=" << std::to_string(world.GetId()) << ')';
     return out;
   }
 
